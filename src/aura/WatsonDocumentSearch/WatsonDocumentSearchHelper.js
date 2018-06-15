@@ -102,7 +102,6 @@
             var resp = JSON.parse(response.getReturnValue());
             
             if (resp.status === 'ERROR') {
-                self.hideSpinner(component);
 
                 var toastEvent = $A.get("e.force:showToast");
                 toastEvent.setParams({
@@ -115,6 +114,8 @@
             } 
             else 
             {
+                $A.get('e.force:refreshView').fire();
+                
                 var toastEvent = $A.get("e.force:showToast");
                 toastEvent.setParams({
                     "title": "Document Attached!",

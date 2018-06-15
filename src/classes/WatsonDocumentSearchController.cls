@@ -121,7 +121,14 @@ public class WatsonDocumentSearchController {
         catch (exception e)
         {
             resp.status = PSResponse.ERROR;
-            resp.msg = e.getMessage();
+            if (e.getMessage().contains('FIELD_INTEGRITY_EXCEPTION'))
+            {
+              resp.msg = 'Document already attached to this record!';
+            }
+            else
+            {
+              resp.msg = e.getMessage();
+            }
         }
         
         return  JSON.serialize(resp);
