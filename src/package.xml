@@ -15,6 +15,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>IBMWatson</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
         <members>PaperclipIcon</members>
         <members>WatsonAnalyticsIcon</members>
         <name>StaticResource</name>
