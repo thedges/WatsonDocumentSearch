@@ -16,6 +16,8 @@ Before is video showing the component in action. The video shows the above funct
 
 <b>NOTE</b>: This is a custom component with no configuration options and was built for specific demo. Contact me if you are interested in using and we can tweak to your demo needs.
 
+<b>DEPENDENCY</b>: Install the PSCommon package first
+
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
