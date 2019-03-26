@@ -1,5 +1,7 @@
 # WatsonDocumentSearch
 
+THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/thedges/Disclaimer/master/disclaimer.txt).
+
 This package contains a Lightning Component that performs searches on [IBM Discovery Service](https://www.ibm.com/watson/services/discovery/). The use case is an agency can upload policy documents to IBM's discovery service and have it 'index' those documents. Then a call center or case worker can query those documents with this component to get snippets of those policy documents that hopefully answer a question or provide further context on the query. 
 
 Current capabilities of component are:
